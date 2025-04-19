@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html manifest="myapplication.manifest" lang="en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <base href="https://www.programming-hero.com/" target="_blank">
+    <style>
+        p {
+            color: aqua;
+        }
+        h1 {
+            color: blue;
+        }
+    </style>
+    <style>
+        p {
+            color: brown;
+        }
+        h1 {
+            color: blueviolet;
+        }
+        body {
+            background-color: rgb(151, 224, 122);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 title="Attention">Learning&nbsp;Character&nbsp;Entities</h1>
+    <p><b>&amp;&nbsp; &nbsp; &nbsp;&amp;&nbsp;&lt;&nbsp;&gt; </b></p><br>
+    <p>&lt;img&gt;&nbsp; &lt;title&gt; &nbsp; &quot; &nbsp;&quot;&lsquo; &nbsp;&lsquo;&rsquo;&lsquo;&rsquo; <br>&ldquo;&nbsp;&rdquo; </p>
+    <p>fjfjkjkjkjjkjf</p>
+    <p dir="ltr"> Direction should be left to Right</p>
+    <p lang="en" dir="ltr"> Direction should be left to Right</p>
+    <address>Page maintained by <a href="mailto:taylor.rose@yourdomain.com">Taylor Rose</a> and <a href="/contact-us/katerine-whitney.html">katerine-whitney</a>
+    </address>
+    <h1>All about <code>body</code></h1>
+    <p>The <code>body  element contains your page's content,which may include </code><em>nearly</em> every element</p>
+    <p onfocus="ScriptProcessorNode">what</p>
+    <p> an image from programming hero <img src="_next/image?url=%2Fteam%2Fteam.webp&w=1920&q=75" width="300" height="200"> see programming hero</p>
+    <a href="https://web.programming-hero.com/register">visit the site</a>
+    <ol>
+        <li>Take an Italian Berlitz course.</li>
+        <li>Move to Italy.</li>
+            <ol>
+                <li>Have a yard sale.</li>
+                <li>Pack what's left.</li>
+                <li>Ship boxes.</li>
+                <li>Jump on plane</li>
+            </ol>
+        <li>Say "Ciao!" upon landing</li>
+    </ol>
+    <ol>
+        <li>Take an Italian Berlitz course.</li>
+        <li>Move to Italy.
+            <ol>
+                <li>Have a yard sale.</li>
+                <li>Pack what's left.</li>
+                <li value="2">Ship boxes.(It is done by value attribute in li tag)</li>
+                <li>Jump on plane</li>
+            </ol>
+        </li>    
+        <li>Say "Ciao!" upon landing</li>
+    </ol>
+        <h1> 1 dt and 1 dd</h1>
+    <dl>
+        <dt>Boris Karloff</dt>
+        <dd>Best know for his role in <cite>Frankenstein</cite> and related horror films, ths scaremasteer's real name was William Henry Pratt.</dd>
+    </dl>
+    <h1>1 dt many dd</h1>
+    <dl>
+        <dt>Director</dt>
+        <dd>Jean-pierre jeunet</dd>
+        <dt>Writers</dt>
+        <dd>Guillaume laurant (story, screenplay)</dd>
+        <dd>Jean-pierre(stor)</dd>
+        <dt>Cast</dt>
+        <dd>
+            <dl>
+                <dt>Audrey Tatou </dt>
+                <dd>Am&eacute;lie Poulain</dd>
+            </dl>
+        </dd>
+    </dl>
+    <div>
+        <style>
+            ul {
+               list-style-type: none; overflow: hidden; margin: 0%; padding: 0%;background-color: aquamarine;
+            }
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+            background-color: #111111;
+            }
+        </style>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+    </div> <br>
+    <p> they listen to games vea tahe online <abbr title="Major league Baseball">MLB</abbr> Gsmrfsy Audio service.</p><br>
+    <p> they listen to <span>games</span> vea tahe online <abbr>MLB</abbr> (Major league Baseball)Gsmrfsy Audio service.</p>
+    <p>Two of the bools on er summer reading list are <cite>A Separate Peace </cite> and <cite>The Odyssey
+    </cite></p>
+
+    <object data="C:\Users\Alamgir\Desktop\HTML\Portfolio\blue-sea.jpg" width="400" height="300"></object><br>
+    <object data="C:\Users\Alamgir\Desktop\HTML\Table\table1.html" type="" width="500" height="400"></object>
+    <div>
+        <object data="https://audio.com/ard/audio/push-it-away-single-edit" type="" width="400"         height="500"> <param name="autoplay" value="true">
+        </object>
+    </div>
+    <h1>Public Radio Station Listener Survey</h1>
+    <form action="process-form.php" method="post">
+        <fieldset>
+            <label for="fullneme">Fullname :</label>
+            <input type="text" id="fullneme" name="fullneme" maxlength="100">
+            <div>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="country">Country :</label>
+                <select required name="country" id="country">
+                    <option value="AF">Afganistan</option>
+                    <option value="AL">Albania</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">Comments :</label> <br> <br>
+                <textarea placeholder="comment here"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="Subscribed" name="Subscribed" checked="checked">
+                <label for="Subscribed">Yes, I am a subscriber</label>
+            </div> <br>
+            <div>
+                <input type="submit" value="Submit My Information">
+                <input type="reset"  value="Reset">
+            
+                <input type="password" name="">
+            </div>
+            <div>
+                <label for="survy">Survy</label>
+                <select name="computer" id="">
+                    <optgroup label="Desktops">
+                        <option value="The xyz 2000">xyz 2000</option>
+                        <option value="The xyz 2001">xyz 2001</option>
+                    </optgroup>
+                    <optgroup label="laptop">
+                        <option value="The abc 2000">abc 2000</option>
+                        <option value="The abc 2001">abc 2001</option>
+                    </optgroup>5
+                </select>
+            </div>
+        </fieldset>
+    </form>
+    <p>this a <span style="color: red;" > text </span></p>
+    <p>this a <span class=”yellow” > text </span></p>
+</body>
+</html>
