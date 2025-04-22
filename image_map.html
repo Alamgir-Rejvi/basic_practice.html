@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(53, 212, 159);
+            text-align: center;
+            color: blue;
+        }
+
+        div {
+            border-radius: 20px;
+            background-color: brown;
+            width: 500px;
+            height: 200px;
+            margin-left: 30px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>How to use image map</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQZxleUTlyrW2IVAp7z47fH9NCILz_Mc5gvg&s"
+            alt="workplace" usemap="#workplace">
+    </div>
+    <div>
+        <map name="workplace">
+            <area shape="rect" coords="48,93,18,144" href="mobile.html" alt="description of mobile">
+            <area shape="circle" coords="237,121,27" href="tea_cup.html" alt="description of Tea Cup">
+            <area shape="rect" coords="62,13,196,147" href="laptop.html" alt="description of laptop">
+        </map>
+    </div>
+</body>
+
+</html>
